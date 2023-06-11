@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 
 @Environment(EnvType.CLIENT)
 public class SodiumRenderDistanceUnlocker implements ClientModInitializer {
-	public static final String MOD_ID = "sodium-render-distance-unlocker";
 	public static final String MOD_NAME = "Sodium Render Distance Unlocker";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 

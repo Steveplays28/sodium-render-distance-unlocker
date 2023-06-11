@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium-render-distance-unlocker",
+  "version": "${version}",
+  "name": "Sodium Render Distance Unlocker",
+  "description": "Allows rendering/simulating more than 32 chunks with Sodium.",
+  "authors": [
+    "Steveplays28"
+  ],
+  "contact": {
+    "repo": "https://github.com/Steveplays28/sodium-render-distance-unlocker"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/sodiumrenderdistanceunlocker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.steveplays28.sodiumrenderdistanceunlocker.SodiumRenderDistanceUnlocker"
+    ]
+  },
+  "mixins": [
+    "sodium-render-distance-unlocker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
